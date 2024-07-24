@@ -1,0 +1,44 @@
+/* Styles for the PageTitle component */
+.page-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 20px;
+  right: 0;
+}
+
+#title {
+  font-size: 24px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.page-buttons {
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #afafafd7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  z-index: 5;
+}
+
+button:hover {
+  background-color: #004192;
+}
+
+.page-title h1 {
+  font-weight: 600;
+}
